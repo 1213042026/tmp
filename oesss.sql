@@ -1,3 +1,5 @@
+create database oes;
+use oes;
 create table user (
         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
         user_name VARCHAR(30) NOT NULL,
